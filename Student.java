@@ -1,14 +1,30 @@
-package com.tka;
+package com.variables;
 
 public class Student {
 	public static void main(String[] args) {
-		System.out.println("Name:"+"Rahul Kumar Prasoon");
-		System.out.println("class:"+"Ty BSC.CS");
-		System.out.println("10th per:"+ 65);
-		System.out.println("12th per :"+62);
-		System.out.println("1yr:"+"8.86 CGPA");
-		System.out.println("2yr:"+"8.26 CGPA");
+		byte age=21;
+		short seatNumber=12452;
+				int pincode=759658785;
+				long mobileNumber=78757857875l;
+				
+				float height=7.9f;
+				double salary=85.897989;
+				
+				char gmail='@';
+				boolean checkPassed=true;
+				
+				System.out.println("StudentAge ="+ age);
+				System.out.println("Student seatNumber="+seatNumber);
+				System.out.println("Student Pincode="+pincode);
+				System.out.println("Student mobileNumber="+mobileNumber);
+				System.out.println("Student Height="+height);
+				System.out.println("Student Salary="+salary);
+				System.out.println("Student gmail="+gmail);
+				System.out.println("Student Status"+checkPassed);
+				
 		
 	}
+	
+
 
 }
