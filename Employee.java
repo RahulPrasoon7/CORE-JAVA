@@ -1,23 +1,27 @@
-package com.tka;
+package com.variables;
 
 public class Employee {
-public static void main(String[] args) {
-	
-	String EmpName="Rahul Kumar Prasoon ";
-	byte EmpID=102;
-	byte Age=21;
-	String Designation="Software Developer";
-	String EmpDepartment="IT";
-	double Salary=8000000;
-	float Experience=4.5f;
-	
-	
-	System.out.println("EmpId:"+EmpID);
-	System.out.println("Emp Name:"+EmpName);
-	System.out.println("Emp Age:"+Age);
-	System.out.println("Designation:"+Designation);
-	System.out.println("Employee Department:"+EmpDepartment);
-	System.out.println("salary:"+Salary);
-	System.out.println("Experience:"+Experience);
-}
+	public static void main(String[] args) {
+		String empName="Rahul Prasoon";
+		int empId=102;
+		String department="IT";
+		String designation="Software Developer";
+		double salary=75000;
+		String officeTiming="10:00 to 5:00";
+		String experience="5yrs";
+		
+		System.out.println("Employee Name="+empName);
+		System.out.println("Employee ID="+empId);
+		System.out.println("Employee Designation="+designation);
+		System.out.println("Employee Department="+department);
+		System.out.println("Employee Salary="+salary);
+		System.out.println("Employee office time= "+officeTiming);
+		System.out.println("Employee Experience= "+experience);
+		
+		
+		
+		
+		
+	}
+
 }
