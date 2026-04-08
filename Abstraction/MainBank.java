@@ -2,14 +2,14 @@ package com.tka;
 
 public class MainBank {
 	public static void main(String[] args) {
-		Bank b=new Current();
-		
-		b.calculateInterest();
-		b.desposite();
-		System.out.println("------------------");
-		Bank r=new Saving();
-		r.calculateInterest();
-		r.desposite();
+//		Bank b=new Current();
+//		
+//		b.calculateInterest();
+//		b.desposite();
+//		System.out.println("------------------");
+//		Bank r=new Saving();
+//		r.calculateInterest();
+//		r.desposite();
 		
 //		FoodOrder d= new DineInOrder();
 //		d.calculateBill();
@@ -26,7 +26,11 @@ public class MainBank {
 //		Ride r=new PrimeRide();
 //		r.calculateFare();
 //		r.startRide();
-		
+		Employee e=new FullTime();
+		e.calculateSalary();
+		System.out.println("----------");
+		Employee e1=new PartTime();
+		e1.calculateSalary();
 		
 	}
 
